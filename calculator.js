@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var currentDisplay = "";
 var totalEquation = [];
 var tempOperator = "";
@@ -204,16 +206,7 @@ $("#AC").click(function() {
     $("#AC").html("AC");
   }
 })
-/*
-//testing
-$(".calcButton").click(function() {
-  console.log(totalEquation);
-  console.log(lastPressed);
-  console.log(totalEquation.length);
-  console.log(tempOperator + "is the temp operator");
-  console.log(eval("-2--5"));
-})
-*/
+
 function calculationFormat(results) {
   //if the result has more than 9 digits, shorten it to 9 digits
   if (results.toString().length > 9) {
@@ -285,3 +278,4 @@ function displayResize(num) {
     $("#results").addClass("smallerFont5");
   }
 }
+});
