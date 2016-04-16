@@ -1,0 +1,156 @@
+body {
+  height: 100%;
+  width: 100%;
+  
+  background: grey;
+  background-size: cover;
+}
+
+#iphoneLine {
+  position: relative;
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin: 25px auto;
+  border-radius: 50px;
+}
+
+.calculatorBackground {
+  position: absolute;
+  height: 470px;
+  width: 250px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  -webkit-box-shadow: -10px 15px 30px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 15px 30px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 15px 30px 1px rgba(0, 0, 0, 0.75);
+}
+
+#containerCalc {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin: 51px auto;
+  width: 224px;
+  height: 368px;
+  background-color: #212121;
+  border: 3px solid black;
+  transform: translate(-50%);
+}
+
+#resultsDiv {
+  background-color: #212121;
+  height: 108px;
+  width: 100%;
+  left: 0px;
+  position: relative;
+}
+
+#statusBar {
+  color: white;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-weight: 300;
+}
+
+#results {
+  position: relative;
+  font-weight: 100;
+  float: right;
+  color: white;
+  margin: 0px 10px;
+  transform: translate(0%, -50%);
+}
+
+.normalFont {
+  font-size: 57px;
+  top: 65%;
+}
+
+.smallerFont1 {
+  font-size: 54px;
+  top: 67%;
+}
+
+.smallerFont2 {
+  font-size: 44px;
+  top: 70%;
+}
+
+.smallerFont3 {
+  font-size: 40px;
+  top: 72%;
+}
+
+.smallerFont4 {
+  font-size: 35px;
+  top: 74%;
+}
+
+.smallerFont5 {
+  font-size: 33px;
+  top: 75%;
+}
+
+#buttons {
+  width: 100%;
+  height: 70.4%;
+  background-color: #212121;
+  texts-align: center;
+}
+
+.calcButton {
+  width: 23.66%;
+  height: 19.3%;
+  font-size: 24px;
+  margin: 1px auto;
+  background-color: #f2f2f2;
+  border: none;
+  transition: all .2s ease;
+  font-weight: 200;
+  display: inline;
+  padding: 0px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.buttonClicked {
+  opacity: 0.8;
+}
+
+.operatorOn {
+  border: 2px solid black;
+}
+
+.greyerButton {
+  background-color: #d9d9d9;
+}
+
+.zeroButton {
+  width: 49.1%;
+}
+
+.orangeButton {
+  background-color: #FF9800;
+  color: white;
+}
+
+#homeCircle {
+  margin: 8px auto;
+  width: 39px;
+  height: 39px;
+  background-color: white;
+  border: 3px ridge silver;
+  border-radius: 100px;
+}
