@@ -6,4 +6,4 @@ I made it to look similiar to the iPhone's calculator. The only difference is th
 
 # Demo
 
-Here's my codepen <a href ="http://codepen.io/martinkwan/pen/eJXLqP?editors=1000" target="_blank">link</a> that you can preview the calculator at.
+Here's my codepen <a href ="http://codepen.io/martinkwan/full/eJXLqP/" target="_blank">link</a> that you can preview the calculator at.
