@@ -1,5 +1,6 @@
 # Calculator
-![Calculator](http://www.giphy.com/gifs/l3vRlcsJmiuWzN3NK "Calculator")
+
+![Calculator](http://i.giphy.com/l2JhHGmi7EflmEBxK.gif "Calculator")
 
 I made this calculator with HTML, CSS, JavaScript, JQuery, and Bootstrap.
 
